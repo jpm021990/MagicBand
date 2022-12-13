@@ -12,5 +12,5 @@ async def main():
     if plug.is_off:
       await plug.turn_on()
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
       asyncio.run(main())
